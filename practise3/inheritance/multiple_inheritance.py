@@ -1,7 +1,7 @@
 class Father:
     def drive(self):
         print("Father can drive")
-
+    
 
 class Mother:
     def cook(self):

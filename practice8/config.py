@@ -1,0 +1,5 @@
+HOST = "localhost"
+DATABASE = "Phonebook"  
+USER = "postgres"
+PASSWORD = "Temiron_07"  
+PORT = "5432"

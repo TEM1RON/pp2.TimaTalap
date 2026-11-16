@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Damir",
+        "email": null,
+        "birthday": null,
+        "group_name": null,
+        "phones": [
+            {
+                "number": "+77011234567",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Aigerim",
+        "email": null,
+        "birthday": null,
+        "group_name": null,
+        "phones": [
+            {
+                "number": "+77079998877",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Erasyl",
+        "email": null,
+        "birthday": null,
+        "group_name": null,
+        "phones": [
+            {
+                "number": "87023334455",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Tima",
+        "email": null,
+        "birthday": null,
+        "group_name": null,
+        "phones": [
+            {
+                "number": "87773041236",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "ывапрол",
+        "email": null,
+        "birthday": null,
+        "group_name": null,
+        "phones": [
+            {
+                "number": "8526595",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "tim",
+        "email": "temir@",
+        "birthday": "2027-07-27",
+        "group_name": null,
+        "phones": [
+            {
+                "number": "7777777777",
+                "type": "mobile"
+            }
+        ]
+    }
+]

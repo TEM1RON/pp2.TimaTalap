@@ -17,3 +17,13 @@ with open("demofile.txt") as f:
 with open("demofile.txt") as f:
   for x in f:
     print(x)
+with open("test.txt", "w") as file:
+    file.write("Hello")
+with open("students.txt", "r") as file:
+    lines = file.readlines()
+
+print("Number of lines:", len(lines))
+print("First student:", lines[0].strip())
+with open("notes.txt", "w") as file:
+    file.write("First line\n")
+    file.write("Second line\n")

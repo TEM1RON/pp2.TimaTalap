@@ -187,7 +187,25 @@ def delete_contact():
         print(f"Delete error: {error}")
     finally:
         conn.close()
-
+def func6():
+    search = input("input your search")
+    conn = get_connection()
+    if not conn:
+        return
+    
+        try:
+            with conn:
+                with conn.cursor() as cur:
+                    cur.execute("SELECT id, first_name, phone FROM contacts WHERE first_name ILIKE %s OR first_name = %s", (search, search))
+                    rows = cur.fetchall()
+                    
+                    if not rows:
+                        print("person not found")
+                        return
+        except Exception as error:
+            print(f"Delete error: {error}")
+        
+                    
 def main():
     create_tables()
 
@@ -198,6 +216,7 @@ def main():
         print("3. Update contact")
         print("4. Search / View contacts")
         print("5. Delete contact")
+        print("6 seacrh")
         print("0. Exit")
         
         choice = input("Select an option (0-5): ").strip()
@@ -214,6 +233,8 @@ def main():
             delete_contact()
         elif choice == '0':
             print("Goodbye!")
+        elif choice == '6':
+            func6()
             break
         else:
             print("Please enter a number between 0 and 5.")
